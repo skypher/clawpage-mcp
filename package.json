@@ -1,6 +1,6 @@
 {
   "name": "clawpage-mcp",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "MCP server for ClawPage web extraction API. Extract and structure any web page into clean JSON.",
   "type": "module",
   "bin": {
@@ -21,6 +21,7 @@
     "x402",
     "agents"
   ],
+  "mcpName": "io.github.skypher/clawpage-mcp",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

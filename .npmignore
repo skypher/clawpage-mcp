@@ -1,0 +1,7 @@
+node_modules/
+src/
+tsconfig.json
+.mcpregistry_*
+.npmrc
+*.test.js
+*.test.ts
