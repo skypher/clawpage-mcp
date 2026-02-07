@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.skypher/clawpage",
+  "description": "Extract and structure any web page into clean JSON. Free tier: 10/day.",
+  "title": "ClawPage",
+  "version": "0.2.0",
+  "websiteUrl": "https://api.clawpage.xyz",
+  "repository": {
+    "url": "https://github.com/skypher/clawpage-mcp",
+    "type": "git"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "clawpage-mcp",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "environmentVariables": []
+}

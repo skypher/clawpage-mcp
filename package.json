@@ -1,0 +1,42 @@
+{
+  "name": "clawpage-mcp",
+  "version": "0.2.0",
+  "description": "MCP server for ClawPage web extraction API. Extract and structure any web page into clean JSON.",
+  "type": "module",
+  "bin": {
+    "clawpage-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test dist/handler.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "clawpage",
+    "web-scraping",
+    "web-extraction",
+    "structured-data",
+    "x402",
+    "agents"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^5.2.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skypher/clawpage-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
